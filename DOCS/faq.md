@@ -103,9 +103,9 @@ Sometimes a single license can be used to represent the licensing terms of a pac
 A licensing choice can be represented by a license expression using
 the `OR` operator. For example, a file that is disjunctively licensed
 under either the GPL-2.0-only or MIT would be represented using the following
-disjunctive expression: `GPL-2.0-only OR MIT`.
+disjunctive expression: 
 
-# How does one represent a file or package that is licensed under two or more licenses?
+ How does one represent a file or package that is licensed under two or more licenses?
 
 Conjunctive licensing can be represented via a license expression using
 the 'AND' operator. For example, a file or package that is subject to the Apache-2.0,
