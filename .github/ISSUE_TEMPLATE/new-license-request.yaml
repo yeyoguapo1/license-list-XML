@@ -9,14 +9,14 @@ body:
       label: Introduction
       description: Briefly explain how this license meets the [license inclusion principles](https://github.com/spdx/license-list-XML/blob/main/DOCS/license-inclusion-principles.md)
     validations:
-      required: true
+      required: 
   - type: input
     id: name
     attributes:
       label: License Name
       description: Full name or title of license
     validations:
-      required: true
+      required: 
   - type: input
     id: identifier
     attributes:
