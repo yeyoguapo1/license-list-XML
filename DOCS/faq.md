@@ -99,9 +99,9 @@ list of approved SPDX licenses, one can define a new license label, using `Licen
 # What are license expressions?
 Sometimes a single license can be used to represent the licensing terms of a package or file, but there are situations where a single license identifier is not sufficient. [SPDX License Expressions](https://spdx.github.io/spdx-spec/v2.3/SPDX-license-expressions/) provide a way to construct more complex licensing scenarios. expressions. A license expression could be a single license identifier found on the SPDX License List; a user defined license reference denoted by the `LicenseRef-<idString>`; a license identifier combined with an SPDX exception; or some combination of license identifiers, license references and exceptions constructed using a small set of defined operators: `AND`, `OR`, `WITH` and `+`)   
  
-# How does one represent a file or package that is licensed under a choice of two or more licenses?
+ How does one represent a file or package that is licensed under a choice of two or more licenses?
 A licensing choice can be represented by a license expression using
-the `OR` operator. For example, a file that is disjunctively licensed
+the  operator. For example, a file that is disjunctively licensed
 under either the GPL-2.0-only or MIT would be represented using the following
 disjunctive expression: 
 
