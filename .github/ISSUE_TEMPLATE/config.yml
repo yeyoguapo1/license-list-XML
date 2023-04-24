@@ -1,4 +1,4 @@
-blank_issues_enabled: true
+blank_issues_enabled: 
 contact_links:
   - name: New license request via SPDX Online Tool
     url: https://tools.spdx.org/app/submit_new_license/
