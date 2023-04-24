@@ -110,7 +110,7 @@ disjunctive expression: `GPL-2.0-only OR MIT`.
 Conjunctive licensing can be represented via a license expression using
 the 'AND' operator. For example, a file or package that is subject to the Apache-2.0,
 MIT, and GPL-2.0-or-later would be represented using the following conjunctive
-expression: `Apache-2.0 AND MIT AND GPL-2.0-or-later`
+expression: 
  
-# How are license identifiers used in an SPDX Document?
+ How are license identifiers used in an SPDX Document?
 The SPDX specification includes fields to record license information at the [](https://spdx.github.io/spdx-spec/v2.3/package-information/), [](https://spdx.github.io/spdx-spec/v2.3/file-information/), and [](https://spdx.github.io/spdx-spec/v2.3/snippet-information/) level. 
