@@ -37,7 +37,7 @@ body:
         - Submitted, but pending
         - Rejected
     validations:
-      required: true
+      required: 
   - type: input
     id: author
     attributes:
@@ -48,4 +48,4 @@ body:
     attributes:
       label: URL to project(s) that use license
     validations:
-      required: true
+      required: 
