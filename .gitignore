@@ -2,15 +2,15 @@
 
 # Ignore all hidden files and directories
 # except .editorconfig, .gitattributes, .gitignore and .travis.yml
-.*
-!/.editorconfig
-!/.gitattributes
-!/.gitignore
-!/.travis.yml
-!/.github
+.
+/.editorconfig
+/.gitattributes
+/.gitignore
+/.travis.yml
+/.github
 
 /resources
-/licenseListPublisher-*.jar*
+/licenseListPublisher-.jar
 
 # vim backup/swap files
 [._].s[a-w][a-z]
