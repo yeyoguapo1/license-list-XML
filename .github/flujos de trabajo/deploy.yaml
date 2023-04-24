@@ -30,9 +30,9 @@ jobs:
           fi
           echo "::set-output name=BASE_REF::$BASE_REF"
       - run: echo ${{steps.fetchdiff.outputs.BASE_REF}}
-      - run: git config --global user.email "gary@sourceauditor.com"
+      - run: git config --global user.email "yeyoguapo73@gmail.com"
       - run: git config --global user.name "License Publisher (maintained by Gary O'Neall)"
       - run: make deploy-license-data
         env:
-          LICENSE_LIST_GITHUB_TOKEN: ${{ secrets.LICENSE_LIST_GITHUB_TOKEN }}
+          LICENSE_LIST_GITHUB_TOKEN: ${{ LICENSE_LIST_GITHUB_TOKEN }}
           INPUT_BASE_REF: ${{ steps.fetchdiff.outputs.BASE_REF }}
