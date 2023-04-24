@@ -1,7 +1,7 @@
 name: New license request
 description: Submit a new license or exception request to the SPDX List.
-title: "New license request: "
-labels: ["new license/exception request"]
+title:  New license request: 
+labels: [new license/exception request]
 body:
   - type: textarea
     id: introduction
@@ -42,7 +42,7 @@ body:
     id: author
     attributes:
       label: License author or steward
-      description: If not known, put 'Unknown'
+      description: If not known, put Unknown
   - type: textarea
     id: usages
     attributes:
